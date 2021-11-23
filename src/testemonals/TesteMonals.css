@@ -1,0 +1,107 @@
+.person{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    top: 53rem;
+    left: 0;
+    bottom: 0;
+    background-color: #F4F9FC;
+}
+.create{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #F4F9FC;
+}
+.lists{
+    font-size: 40px;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 900;
+    color: #2F4D5A;
+    margin-top: 10px;
+    
+}
+
+.listone{
+    width: 85%;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #5F5F5F;
+}
+.new-block{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 2rem;
+}
+.new1{
+    width: 310px;
+    height: 180px;
+    background-color: rgb(250, 252, 255);
+    box-shadow: 1px 5px  5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 10px 10px;
+}
+.avatar{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.user1 img{
+    width: 100px;
+    height: 90px;
+    margin: 0;
+    border-radius: 50px;
+    margin: 60px 5px;
+}
+.title{
+    font-size: 21px;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 700;
+    color: #4F4F4F;
+    margin-left: -10px;
+    margin: 0;
+}
+.title1{
+    font-size: 15px;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 500;
+    color: #4F4F4F;
+    margin: 0;
+}
+.new1 {
+    position: relative;
+    display: inline-block;
+    background: #ffffff;
+
+}
+
+.new1 p {
+    display: block;
+    font-size: 18px;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 400;
+    color: #4F4F4F;
+    text-decoration: none;
+    padding: 12px 10px;
+}
+
+
+.new1:after {
+    content: '';
+    position: absolute;
+    top: 12.2rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: 25px solid #ffffff;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+}
